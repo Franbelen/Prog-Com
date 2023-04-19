@@ -54,16 +54,16 @@ UnionFind UF(V); // all V are disjoint sets
 
 for (auto &[w, e] : Edgelist) 
 { 
-    u = e.first; v = e.second;
-    cout << u << " " << v << " " << w << '\n';
+    u = e.first -1 ; v = e.second -1;
+    
     if (UF.isSameSet(u, v)) continue; // already in the same CC
+
     mst_cost += w;
-    cout << mst_cost << '\n';
     UF.unionSet(u, v); // link them
     ++num_taken; // 1 more edge is taken
     if (num_taken == V-1) break;
     
 }
 
-printf("MST cost = %d (Kruskal’s)\n", mst_cost);
+cout << mst_cost << '\n';
 }
