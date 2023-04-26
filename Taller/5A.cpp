@@ -30,11 +30,17 @@ int main()
 
         Ans = false;
 
+        // probar primer caso
+
+        for (int i = 0; i< M; i++){S += (V[i]*N[i]);}
+            if (S <= O){Ans = true;}
+        
+
         while ((not Ans) and next_permutation(N.begin(),N.end()))
         {
             S = 0;
             for (int i = 0; i< M; i++){S += (V[i]*N[i]);}
-            if (S == O){Ans = true;}
+            if (S <= O){Ans = true;}
             
         }
         if (Ans)
