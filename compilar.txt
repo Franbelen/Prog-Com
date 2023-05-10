@@ -2,5 +2,7 @@ ejemplo:
 
 g++ -O2 /home/franbelen/contest/3F.cpp && time ./a.out < in.txt > out
 
+#notebook
 g++ -O2 /home/franbelen/Prog-Com/Lader/MinimumSpanningTree.cpp && time ./a.out < in.txt > out
-
+g++ -O2 /home/franbelen/Prog-Com/Taller/5G.cpp && time ./a.out < in.txt > out
+#pc

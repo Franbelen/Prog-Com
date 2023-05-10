@@ -1,5 +1,0 @@
-ejemplo:
-
-g++ -O2 /home/fran/Comp/A.cpp && time ./a.out < in.txt > out
-
-

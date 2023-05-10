@@ -7,7 +7,6 @@ int M;
 bool Ans;
 
 
-
 int main()
 {
     cin >> test;
@@ -31,7 +30,7 @@ int main()
         Ans = false;
 
         // probar primer caso
-
+        S = 0;
         for (int i = 0; i< M; i++){S += (V[i]*N[i]);}
             if (S <= O){Ans = true;}
         
