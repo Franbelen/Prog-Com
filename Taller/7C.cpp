@@ -3,7 +3,7 @@ using namespace std;
 
 
 long long b, a, m, r;
-long long times; 
+long long times, t; 
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     cin >> b;
     m = max(a,b);
     
-    int t = m*m - m + 1 ;
+    t = m*m - m + 1 ;
     if (m%2 == 0)
     {
     if (a<b){r = t -(m-a);}
