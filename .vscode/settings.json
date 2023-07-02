@@ -11,6 +11,12 @@
         "utility": "cpp",
         "valarray": "cpp",
         "random": "cpp",
-        "cmath": "cpp"
-    }
+        "cmath": "cpp",
+        "ostream": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
