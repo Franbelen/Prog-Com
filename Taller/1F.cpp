@@ -11,7 +11,7 @@ int main()
 {
 for(int i = 0; i <4;i++)
 {
-    cin >> a >>b >> c >> d;
+    cin >> a >> b >> c >> d;
     puntos.insert(ii(a,b));
     puntos.insert(ii(c,d));
     if (a!=c and b!=d) deg = true;
