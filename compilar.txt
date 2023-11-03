@@ -1,8 +1,3 @@
-ejemplo:
 g++ -O2  && time ./a.out < in.txt > out
 
-
-#notebook
-g++ -O2 /home/franbelen/Prog-Com/Lader/MinimumSpanningTree.cpp && time ./a.out < in.txt > out
-g++ -O2 /home/franbelen/Prog-Com/Taller/5G.cpp && time ./a.out < in.txt > out
-#pc
+g++ -O2 (path) && time ./a.out < in.txt > out
